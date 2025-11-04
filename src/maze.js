@@ -192,7 +192,7 @@ export default function initMaze() {
       width: W,
       height: H,
       wireframes: false,
-      background: "url('/src/wood.avif')",
+      background: "url('/wood.avif')",
     },
   });
 

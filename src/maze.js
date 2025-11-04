@@ -7,6 +7,7 @@ import {
   Composite,
   Events,
 } from "matter-js";
+import woodUrl from "./wood.avif";
 
 export const config = {
   MAZE: {
@@ -192,7 +193,7 @@ export default function initMaze() {
       width: W,
       height: H,
       wireframes: false,
-      background: "url('/wood.avif')",
+      background: `url('${woodUrl}')`,
     },
   });
 
